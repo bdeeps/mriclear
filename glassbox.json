@@ -1,0 +1,105 @@
+{
+  "slug": "mriclear",
+  "box": 20,
+  "date": "2026-10-03",
+  "title": "MRIClear",
+  "question": "How does an MRI machine work?",
+  "hook": "A magnet 30,000 times stronger than Earth's, a radio that listens to the hydrogen in your body, and a Fourier transform that turns echoes into a picture. Take an MRI scanner apart in 3D and make T1 and T2 contrast yourself.",
+  "thumbText": "HOW AN MRI WORKS",
+  "field": "body",
+  "minutes": 14,
+  "tags": [
+    "MRI",
+    "magnetic resonance imaging",
+    "NMR",
+    "Larmor frequency",
+    "k-space",
+    "Fourier transform",
+    "fMRI",
+    "medical imaging",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "A giant magnet that never switches off",
+      "text": "An MRI scanner is a superconducting magnet: coils of niobium-titanium wire bathed in liquid helium at about −269 °C, carrying current with no resistance. It makes a field of 1.5 or 3 tesla, 30,000 to 60,000 times Earth's, inside a tunnel about 70 cm wide."
+    },
+    {
+      "title": "Your hydrogen nuclei are tiny magnets",
+      "text": "Each hydrogen nucleus is a spinning proton that acts like a bar magnet. In the scanner a tiny excess, about 5 in a million at 1.5 T, lines up with the field, and every one of them wobbles at the Larmor frequency: 42.58 MHz per tesla, or 63.9 MHz at 1.5 T."
+    },
+    {
+      "title": "A radio pulse, then an echo",
+      "text": "A burst of radio waves at exactly that frequency tips the spins sideways, and as they spin they broadcast a faint radio signal. It fades as the spins drift out of step (T2) while they slowly realign with the field (T1). Different tissues do this at different rates, and the timing of the pulses, TR and TE, decides which tissues look bright."
+    },
+    {
+      "title": "Tilting the field to find position",
+      "text": "Gradient coils make the field slightly stronger on one side, so each position sings at its own frequency. Each echo fills one line of k-space, and a Fourier transform turns the full grid into the picture. The coils flex as they switch, which makes the loud knocking."
+    },
+    {
+      "title": "No X-rays, but the magnet is always on",
+      "text": "MRI uses no ionising radiation. Its dangers are steel objects pulled into the bore, implants that can move or heat up, and radio heating, which is kept under set limits. Everyone is screened before going in, and in an emergency the magnet can be quenched, venting its helium up a pipe."
+    },
+    {
+      "title": "It can watch the brain work",
+      "text": "fMRI detects the extra oxygen-rich blood that flows to busy brain areas, diffusion MRI follows water along nerve fibres, and angiography lights up flowing blood. MRI is best for soft tissue; CT is quicker and better for bone and emergencies."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Tesla",
+      "def": "The unit of magnetic field strength. Earth's field is about 0.00005 T; hospital scanners are 1.5 or 3 T."
+    },
+    {
+      "term": "Superconductor",
+      "def": "A material that, when cold enough, carries current with zero resistance, so the magnet stays on without a power supply."
+    },
+    {
+      "term": "Precession",
+      "def": "The wobble of a spinning proton round the direction of the magnetic field."
+    },
+    {
+      "term": "Larmor frequency",
+      "def": "How fast protons precess: 42.58 MHz for every tesla of field."
+    },
+    {
+      "term": "RF pulse",
+      "def": "A short burst of radio waves at the Larmor frequency that tips the spins over."
+    },
+    {
+      "term": "T1 and T2",
+      "def": "How quickly magnetisation grows back along the field (T1) and how quickly the sideways signal fades (T2). Every tissue has its own."
+    },
+    {
+      "term": "Gradient coils",
+      "def": "Three coils that make the field vary with position, so the scanner can tell where each signal came from."
+    },
+    {
+      "term": "k-space",
+      "def": "The grid of raw echo data. A Fourier transform turns it into the image."
+    },
+    {
+      "term": "BOLD",
+      "def": "Blood-oxygen-level-dependent signal: the change fMRI uses to see which brain areas are working."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "mriclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}

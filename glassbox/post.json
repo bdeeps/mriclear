@@ -1,0 +1,126 @@
+{
+  "slug": "mriclear",
+  "box": 20,
+  "question": "How does an MRI machine work?",
+  "url": "https://glassbox-production-fd52.up.railway.app/e/mriclear/",
+  "app": "https://glassbox-production-fd52.up.railway.app/mriclear/",
+  "assets": {
+    "reel": "reel.mp4",
+    "video": "video.mp4",
+    "cover": "cover.jpg",
+    "thumb": "thumb.jpg",
+    "still": "still.jpg",
+    "historyReel": "history-reel.mp4",
+    "historySlides": [
+      "history-slide-1.jpg",
+      "history-slide-2.jpg",
+      "history-slide-3.jpg",
+      "history-slide-4.jpg",
+      "history-slide-5.jpg",
+      "history-slide-6.jpg",
+      "history-slide-7.jpg",
+      "history-slide-8.jpg",
+      "history-slide-9.jpg",
+      "history-slide-10.jpg"
+    ],
+    "slides": [
+      "slide-1.jpg",
+      "slide-2.jpg",
+      "slide-3.jpg",
+      "slide-4.jpg",
+      "slide-5.jpg",
+      "slide-6.jpg",
+      "slide-7.jpg",
+      "slide-8.jpg",
+      "slide-9.jpg",
+      "slide-10.jpg"
+    ]
+  },
+  "captions": {
+    "history": {
+      "instagram": "From an Irish physicist's wobbling charges in 1897 to 11.7-tesla images of the living brain.\n\n1938: Resonance in a beam of molecules\n1946: NMR in ordinary matter\n1950: The spin echo\n1971: Tumours relax more slowly\n1973: The first MR image\n1977: Indomitable scans a person\n\nThe full story, with 29 moments, sources and charts: glassbox-production-fd52.up.railway.app/e/mriclear/history (link in bio)\n\nThen play with how it works: glassbox-production-fd52.up.railway.app/mriclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #mri #magneticresonanceimaging #nmr #larmorfrequency #kspace #fouriertransform #history",
+      "youtube": {
+        "title": "The history of MRI in 45 seconds #shorts",
+        "description": "From an Irish physicist's wobbling charges in 1897 to 11.7-tesla images of the living brain.\n\n1938 · Resonance in a beam of molecules (Isidor Rabi and colleagues)\n1946 · NMR in ordinary matter (Edward Purcell and Felix Bloch)\n1950 · The spin echo (Erwin Hahn)\n1971 · Tumours relax more slowly (Raymond Damadian)\n1973 · The first MR image (Paul Lauterbur)\n1977 · Indomitable scans a person (Raymond Damadian and his team)\n\n▶ Full history: https://glassbox-production-fd52.up.railway.app/e/mriclear/history/\n▶ Play with it: https://glassbox-production-fd52.up.railway.app/e/mriclear/\n\n#glassbox #howitworks #explained #history"
+      }
+    },
+    "instagram": "How does an MRI machine work?\n\nA magnet 30,000 times stronger than Earth's, a radio that listens to the hydrogen in your body, and a Fourier transform that turns echoes into a picture. Take an MRI scanner apart in 3D and make T1 and T2 contrast yourself.\n\n→ An MRI scanner is a giant magnet, 30,000 times stronger than Earth’s, that never switches off.\n→ Inside: superconducting coils in liquid helium at −269 °C, then gradient coils and a radio antenna.\n→ Every hydrogen nucleus in your body is a tiny spinning magnet.\n→ In the scanner a few per million line up, and all of them wobble at 64 million times a second.\n→ A radio pulse tips the spins over. They fan out and fade, then an echo brings them back.\n\nPlay with it yourself. It's free and open source: glassbox-production-fd52.up.railway.app/mriclear (link in bio)\n\nBox No. 020 of 365. Follow @glassbox.how for a new \"how it works\" every day.\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #mri #magneticresonanceimaging #nmr #larmorfrequency #kspace #fouriertransform #fmri #medicalimaging #threejs",
+    "carousel": "Swipe through: How does an MRI machine work?\n\nA magnet 30,000 times stronger than Earth's, a radio that listens to the hydrogen in your body, and a Fourier transform that turns echoes into a picture. Take an MRI scanner apart in 3D and make T1 and T2 contrast yourself.\n\nSave this for later, then play with the interactive version at glassbox-production-fd52.up.railway.app/mriclear (link in bio).\n\nBox No. 020 · @glassbox.how\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #mri #magneticresonanceimaging #nmr #larmorfrequency #kspace #fouriertransform",
+    "youtube": {
+      "title": "How does an MRI machine work? #shorts",
+      "description": "A magnet 30,000 times stronger than Earth's, a radio that listens to the hydrogen in your body, and a Fourier transform that turns echoes into a picture. Take an MRI scanner apart in 3D and make T1 and T2 contrast yourself.\n\n▶ Play with it: https://glassbox-production-fd52.up.railway.app/e/mriclear/\n⌘ Source code (MIT): https://github.com/bdeeps/mriclear\n\nBox No. 020 of 365 from Glassbox: one open-source interactive explainer every day.\n\n#glassbox #howitworks #explained"
+    },
+    "youtubeLong": {
+      "title": "How does an MRI machine work? (interactive explainer)",
+      "description": "A magnet 30,000 times stronger than Earth's, a radio that listens to the hydrogen in your body, and a Fourier transform that turns echoes into a picture. Take an MRI scanner apart in 3D and make T1 and T2 contrast yourself.\n\n▶ Play with the interactive version: https://glassbox-production-fd52.up.railway.app/e/mriclear/\n⌘ Source code (MIT): https://github.com/bdeeps/mriclear\n\nIn this video:\n• A giant magnet that never switches off. An MRI scanner is a superconducting magnet: coils of niobium-titanium wire bathed in liquid helium at about −269 °C, carrying current with no resistance.\n• Your hydrogen nuclei are tiny magnets. Each hydrogen nucleus is a spinning proton that acts like a bar magnet.\n• A radio pulse, then an echo. A burst of radio waves at exactly that frequency tips the spins sideways, and as they spin they broadcast a faint radio signal.\n• Tilting the field to find position. Gradient coils make the field slightly stronger on one side, so each position sings at its own frequency.\n• No X-rays, but the magnet is always on. MRI uses no ionising radiation.\n• It can watch the brain work. fMRI detects the extra oxygen-rich blood that flows to busy brain areas, diffusion MRI follows water along nerve fibres, and angiography lights up flowing blood.\n\nGlassbox opens one box a day: an interactive model of how something works, plus the code behind it.\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+    },
+    "short": "How does an MRI machine work?\n\nA magnet 30,000 times stronger than Earth's, a radio that listens to the hydrogen in your body, and a Fourier transform that turns echoes into a picture.\n\nPlay with it: https://glassbox-production-fd52.up.railway.app/e/mriclear/",
+    "linkedin": "How does an MRI machine work?\n\nA magnet 30,000 times stronger than Earth's, a radio that listens to the hydrogen in your body, and a Fourier transform that turns echoes into a picture. Take an MRI scanner apart in 3D and make T1 and T2 contrast yourself.\n\n1. A giant magnet that never switches off\n2. Your hydrogen nuclei are tiny magnets\n3. A radio pulse, then an echo\n4. Tilting the field to find position\n5. No X-rays, but the magnet is always on\n6. It can watch the brain work\n\nI built an interactive, open-source explainer so you can pull the levers yourself. It's box No. 020 in my one-a-day project, Glassbox.\n\nTry it: https://glassbox-production-fd52.up.railway.app/e/mriclear/\nCode: https://github.com/bdeeps/mriclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+  },
+  "schedule": {
+    "at": "2026-09-27T13:00:00.000Z"
+  },
+  "targets": [
+    {
+      "service": "instagram",
+      "kind": "reel",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "carousel",
+      "offsetHours": 4,
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "short",
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "linkedin",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "twitter",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "threads",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "tiktok",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "history-reel",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "youtube",
+      "kind": "history-short",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "instagram",
+      "kind": "history-carousel",
+      "offsetHours": 6,
+      "enabled": false
+    }
+  ],
+  "thumbnailOffsetMs": 1200,
+  "updatedAt": "2026-09-27T09:19:34.001Z"
+}

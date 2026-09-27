@@ -1,0 +1,1056 @@
+{
+  "title": "The history of MRI",
+  "tagline": "From an Irish physicist's wobbling charges in 1897 to 11.7-tesla images of the living brain.",
+  "intro": "Physicists spent half a century learning that atomic nuclei are tiny magnets that can be flipped by radio waves. Then, in the 1970s, doctors and chemists asked whether those signals could find disease, and a few inventors worked out how to turn them into pictures. Within a decade MRI was in hospitals, and today it can even watch the brain think.",
+  "eras": [
+    {
+      "id": "spin",
+      "name": "The spinning nucleus",
+      "from": 1897,
+      "to": 1945,
+      "color": "#c49bff",
+      "summary": "Physicists discover that nuclei are tiny magnets that wobble in a field, and that radio waves can flip them."
+    },
+    {
+      "id": "nmr",
+      "name": "Resonance in the lab",
+      "from": 1945,
+      "to": 1971,
+      "color": "#ffb547",
+      "summary": "NMR is found in ordinary matter and becomes a chemist's tool. Echoes and relaxation times are measured, and tissues turn out to differ."
+    },
+    {
+      "id": "image",
+      "name": "From signals to pictures",
+      "from": 1971,
+      "to": 1980,
+      "color": "#ff7a59",
+      "summary": "Gradients, slices and Fourier transforms turn NMR signals into images, first of tubes, then of a finger, then of a whole person."
+    },
+    {
+      "id": "clinic",
+      "name": "Into the hospital",
+      "from": 1980,
+      "to": 1995,
+      "color": "#5ce1a9",
+      "summary": "Superconducting scanners go on sale, contrast agents arrive, and MRI spreads around the world."
+    },
+    {
+      "id": "brain",
+      "name": "Watching the brain",
+      "from": 1985,
+      "to": 2000,
+      "color": "#7aa2ff",
+      "summary": "Diffusion and blood-oxygen imaging let MRI follow water in nerve fibres and see which brain areas are working."
+    },
+    {
+      "id": "field",
+      "name": "Stronger, safer, lighter",
+      "from": 2000,
+      "to": 2026,
+      "color": "#8ef0ff",
+      "summary": "Fields climb to 7 T and beyond, safety rules tighten, and low-helium and portable scanners widen access."
+    }
+  ],
+  "events": [
+    {
+      "year": 1897,
+      "date": "1897",
+      "era": "spin",
+      "art": "atomspin",
+      "title": "A spinning charge wobbles in a field",
+      "who": "Joseph Larmor",
+      "where": "Cambridge, England",
+      "country": "UK",
+      "text": "Studying how magnets change the light from atoms, the Irish physicist Joseph Larmor showed that charges circling in a magnetic field precess: they wobble round the field at a rate set by its strength.",
+      "why": "That wobble, now called Larmor precession, is the frequency every MRI scanner tunes its radio to.",
+      "box": "spins",
+      "sources": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 1936,
+      "date": "April 1936",
+      "era": "spin",
+      "art": "molecule",
+      "title": "Blood is magnetic, when it has no oxygen",
+      "who": "Linus Pauling and Charles Coryell",
+      "where": "Pasadena, USA",
+      "country": "USA",
+      "text": "Measuring haemoglobin in a magnetic field, Pauling and Coryell found that it is weakly repelled when it carries oxygen, but weakly pulled in when it has given the oxygen up.",
+      "why": "Fifty-four years later this difference became the BOLD signal that lets fMRI watch the brain at work.",
+      "box": "uses",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "year": 1936,
+      "date": "1936 and c. 1941",
+      "era": "spin",
+      "art": "magnet",
+      "title": "Two near misses",
+      "who": "Cornelis Gorter; Yevgeny Zavoisky",
+      "where": "Leiden, Netherlands; Kazan, USSR",
+      "country": "Netherlands",
+      "text": "In 1936 the Dutch physicist Cornelis Gorter tried to detect nuclear magnetic resonance in solids and failed. Around 1941 Yevgeny Zavoisky in Kazan saw signals that may have been NMR, but the field of his magnet was not uniform enough to repeat them reliably. In 1944 he discovered the related electron spin resonance instead.",
+      "why": "The effect was real but faint, and finding it needed better magnets and radio electronics.",
+      "sources": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 1938,
+      "date": "15 February 1938",
+      "era": "spin",
+      "art": "atomspin",
+      "key": true,
+      "title": "Resonance in a beam of molecules",
+      "who": "Isidor Rabi and colleagues",
+      "where": "New York, USA",
+      "country": "USA",
+      "text": "At Columbia University, Rabi sent a beam of molecules through magnets and a radio-frequency field. At one exact frequency the nuclei flipped and the beam went astray: magnetic resonance. It won him the 1944 Nobel Prize in Physics.",
+      "why": "It proved nuclei can be flipped by radio waves at a frequency set by the field.",
+      "box": "spins",
+      "sources": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 1946,
+      "date": "December 1945 – January 1946",
+      "era": "nmr",
+      "art": "magnet",
+      "key": true,
+      "title": "NMR in ordinary matter",
+      "who": "Edward Purcell and Felix Bloch",
+      "where": "Cambridge, Massachusetts and Stanford, USA",
+      "country": "USA",
+      "text": "Two teams, working separately, found the signal in everyday materials. Purcell's group at Harvard saw it in paraffin wax on 15 December 1945, and Bloch's group at Stanford saw it in water in January 1946. They shared the 1952 Nobel Prize in Physics.",
+      "why": "For the first time the hydrogen in a lump of matter, or a body, could be made to give a radio signal.",
+      "box": "spins",
+      "sources": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "year": 1950,
+      "date": "15 November 1950",
+      "era": "nmr",
+      "art": "wave",
+      "key": true,
+      "title": "The spin echo",
+      "who": "Erwin Hahn",
+      "where": "Urbana, Illinois, USA",
+      "country": "USA",
+      "text": "Hahn hit spins with two short radio pulses and heard an unexpected extra signal afterwards: an echo, as the fanned-out spins came back into step.",
+      "why": "Spin echoes are still at the heart of many MRI scans, and they let scientists measure T2.",
+      "box": "echo",
+      "sources": [
+        10
+      ]
+    },
+    {
+      "year": 1955,
+      "date": "1955",
+      "era": "nmr",
+      "art": "flask",
+      "title": "Living tissue gives different signals",
+      "who": "Erik Odeblad and Gunnar Lindström",
+      "where": "Stockholm, Sweden",
+      "country": "Sweden",
+      "text": "After visiting Bloch at Stanford, the Swedish doctor Erik Odeblad built his own NMR equipment and measured human tissues and body fluids. He found that their relaxation times differ.",
+      "why": "It was an early hint that NMR could tell one tissue from another.",
+      "box": "echo",
+      "sources": [
+        11,
+        12
+      ]
+    },
+    {
+      "year": 1960,
+      "date": "March 1960",
+      "era": "nmr",
+      "art": "word",
+      "title": "An imaging idea filed away",
+      "who": "Vladislav Ivanov",
+      "where": "Leningrad, USSR",
+      "country": "Russia",
+      "text": "Soviet records credit Vladislav Ivanov, a young air-force officer, with applying for an inventor's certificate for a way to image the inside of objects with magnetic resonance. It was rejected as unrealistic and only granted in 1984.",
+      "why": "It shows the idea of MR imaging was in the air long before the first pictures.",
+      "sources": [
+        13,
+        12
+      ]
+    },
+    {
+      "year": 1971,
+      "date": "19 March 1971",
+      "era": "image",
+      "art": "word",
+      "key": true,
+      "title": "Tumours relax more slowly",
+      "who": "Raymond Damadian",
+      "where": "Brooklyn, New York, USA",
+      "country": "USA",
+      "text": "At the State University of New York Downstate, Damadian reported in Science that tumours in rats had longer NMR relaxation times than healthy tissue. He proposed using NMR to detect cancer and patented a scanning idea, granted in 1974.",
+      "why": "It pointed NMR towards medicine and showed that T1 and T2 could reveal disease.",
+      "box": "echo",
+      "sources": [
+        14,
+        15,
+        17
+      ]
+    },
+    {
+      "year": 1973,
+      "date": "16 March 1973",
+      "era": "image",
+      "art": "pixels",
+      "key": true,
+      "title": "The first MR image",
+      "who": "Paul Lauterbur",
+      "where": "Stony Brook, New York, USA",
+      "country": "USA",
+      "text": "Lauterbur had the idea over dinner in 1971: add a gradient so the field, and the frequency, change with position. Nature first rejected his paper, then published it in 1973 with an image of two small tubes of water. He called the method zeugmatography.",
+      "why": "Gradients turned a signal into a picture, and every MRI since uses them.",
+      "box": "gradients",
+      "sources": [
+        18,
+        19,
+        11
+      ]
+    },
+    {
+      "year": 1974,
+      "date": "1973–1974",
+      "era": "image",
+      "art": "wave",
+      "title": "Slices and k-space",
+      "who": "Peter Mansfield and colleagues",
+      "where": "Nottingham, England",
+      "country": "UK",
+      "text": "At the University of Nottingham, Mansfield's group described NMR 'diffraction', the forerunner of k-space, in 1973, and a way to excite just one slice with a gradient in 1974.",
+      "why": "Slice selection lets a scanner image one thin section of the body at a time.",
+      "box": "gradients",
+      "sources": [
+        20,
+        21,
+        24
+      ]
+    },
+    {
+      "year": 1975,
+      "date": "1975",
+      "era": "image",
+      "art": "chip",
+      "title": "Pictures by Fourier transform",
+      "who": "Anil Kumar, Dieter Welti and Richard Ernst",
+      "where": "Zurich, Switzerland",
+      "country": "Switzerland",
+      "text": "At ETH Zurich, Ernst's group showed how to build MR images with phase and frequency encoding and a Fourier transform. Ernst won the 1991 Nobel Prize in Chemistry for his work on NMR methods.",
+      "why": "Nearly every clinical scanner still fills k-space and uses a Fourier transform this way.",
+      "box": "gradients",
+      "sources": [
+        25,
+        26
+      ]
+    },
+    {
+      "year": 1977,
+      "date": "March 1977",
+      "era": "image",
+      "art": "person",
+      "title": "The first image of a living human part",
+      "who": "Peter Mansfield and Andrew Maudsley",
+      "where": "Nottingham, England",
+      "country": "UK",
+      "text": "Mansfield and Maudsley published cross-sections of a living human finger, made in 1976. The same year Mansfield described echo-planar imaging, a way to make a whole picture from a single pulse in a fraction of a second.",
+      "why": "Echo-planar imaging later made fMRI and diffusion scans possible.",
+      "sources": [
+        23,
+        22,
+        24
+      ]
+    },
+    {
+      "year": 1977,
+      "date": "3 July 1977",
+      "era": "image",
+      "art": "mri",
+      "key": true,
+      "title": "Indomitable scans a person",
+      "who": "Raymond Damadian and his team",
+      "where": "Brooklyn, New York, USA",
+      "country": "USA",
+      "text": "Damadian's team built a superconducting scanner they named Indomitable. Graduate student Larry Minkoff sat inside for nearly five hours while it gathered 106 points, one at a time, to make a rough cross-section of his chest. The machine is now in the Smithsonian's collection.",
+      "why": "It was the first MR scan of a whole human body.",
+      "sources": [
+        16,
+        14,
+        17
+      ]
+    },
+    {
+      "year": 1980,
+      "date": "28 August 1980",
+      "era": "clinic",
+      "art": "skeleton",
+      "key": true,
+      "title": "The first useful patient scan",
+      "who": "John Mallard's team",
+      "where": "Aberdeen, Scotland",
+      "country": "UK",
+      "text": "The University of Aberdeen's home-built Mark-One scanner, with a 0.04 T magnet, scanned a man with cancer and revealed a tumour in his spine that other tests had not found. It went on to scan thousands of patients.",
+      "why": "It showed MRI could change what doctors did for a patient.",
+      "sources": [
+        27,
+        28
+      ]
+    },
+    {
+      "year": 1981,
+      "date": "1980–1984",
+      "era": "clinic",
+      "art": "building",
+      "title": "Scanners go on sale",
+      "who": "FONAR, EMI and Picker, GE, and others",
+      "where": "USA and UK",
+      "country": "USA",
+      "text": "FONAR offered the first commercial whole-body scanner around 1980–81. At Hammersmith Hospital in London, a team from EMI made the first series of brain images in 1981, and GE showed 1.5 T images in 1983. The US FDA approved the first MRI systems for sale in 1984.",
+      "why": "MRI moved from physics labs into hospitals.",
+      "box": "anatomy",
+      "sources": [
+        17,
+        30,
+        31,
+        29
+      ]
+    },
+    {
+      "year": 1986,
+      "date": "1986–87",
+      "era": "clinic",
+      "art": "building",
+      "title": "India's first MRI scanner",
+      "who": "Institute of Nuclear Medicine and Allied Sciences (INMAS, DRDO)",
+      "where": "Delhi, India",
+      "country": "India",
+      "text": "The first MRI scanner in India was installed at INMAS in Delhi; sources give 1986 or 1987. AIIMS in New Delhi got its first clinical 1.5 T scanner in 1993.",
+      "why": "It began MRI for patients in a country where scanners are now found in cities across the country.",
+      "sources": [
+        33,
+        34
+      ]
+    },
+    {
+      "year": 1986,
+      "date": "1986",
+      "era": "brain",
+      "art": "waterdrop",
+      "title": "Imaging water on the move",
+      "who": "Denis Le Bihan and colleagues",
+      "where": "Paris, France",
+      "country": "France",
+      "text": "Le Bihan showed how to make MR images of diffusion, the random wandering of water molecules. In 1994, with Peter Basser at the US National Institutes of Health, he introduced diffusion tensor imaging, which measures the direction water moves most easily.",
+      "why": "Diffusion scans now spot strokes within minutes and trace the brain’s wiring.",
+      "box": "uses",
+      "sources": [
+        35,
+        36
+      ]
+    },
+    {
+      "year": 1988,
+      "date": "2 June 1988",
+      "era": "clinic",
+      "art": "molecule",
+      "title": "A contrast agent for MRI",
+      "who": "Schering (Magnevist)",
+      "where": "Berlin, Germany; approved in the USA",
+      "country": "Germany",
+      "text": "Gadopentetate dimeglumine, sold as Magnevist, was approved in the United States as the first gadolinium contrast agent for MRI. Injected into a vein, it shortens T1 and makes some tumours and inflamed areas stand out.",
+      "why": "Contrast agents made MRI better at finding disease that plain scans miss.",
+      "box": "echo",
+      "sources": [
+        32
+      ]
+    },
+    {
+      "year": 1990,
+      "date": "December 1990",
+      "era": "brain",
+      "art": "eye",
+      "key": true,
+      "title": "Blood oxygen lights up the brain",
+      "who": "Seiji Ogawa and colleagues",
+      "where": "Murray Hill, New Jersey, USA",
+      "country": "USA",
+      "text": "At AT&T Bell Laboratories, Ogawa showed in rats that the amount of oxygen in blood changes the MR signal near vessels. He called it blood-oxygen-level-dependent (BOLD) contrast.",
+      "why": "BOLD is the signal behind almost every fMRI study of the working brain.",
+      "box": "uses",
+      "sources": [
+        37,
+        2
+      ]
+    },
+    {
+      "year": 1992,
+      "date": "1992",
+      "era": "brain",
+      "art": "person",
+      "title": "The first human fMRI",
+      "who": "Peter Bandettini, Kenneth Kwong, Seiji Ogawa and teams",
+      "where": "Milwaukee, Boston and Minneapolis, USA",
+      "country": "USA",
+      "text": "Three groups published within weeks of each other in 1992, showing the human visual and motor cortex lighting up as people looked at flashing lights or moved their fingers.",
+      "why": "It opened a new science of mapping human thought without surgery or radiation.",
+      "box": "uses",
+      "sources": [
+        38
+      ]
+    },
+    {
+      "year": 2000,
+      "date": "c. 2000",
+      "era": "field",
+      "art": "magnet",
+      "title": "3 T comes to the clinic",
+      "who": "Several manufacturers",
+      "where": "USA and worldwide",
+      "country": "USA",
+      "text": "Whole-body 3 T scanners were cleared by the US FDA for clinical use between about 1999 and 2002, doubling the field of the common 1.5 T machines.",
+      "why": "Twice the field gives more signal, so sharper or faster scans, especially of the brain.",
+      "box": "spins",
+      "sources": [
+        39
+      ]
+    },
+    {
+      "year": 2001,
+      "date": "July 2001",
+      "era": "field",
+      "art": "bolt",
+      "title": "A tragedy changes safety rules",
+      "who": "Westchester Medical Center",
+      "where": "Valhalla, New York, USA",
+      "country": "USA",
+      "text": "A six-year-old boy having an MRI scan was fatally injured when a steel oxygen cylinder was pulled into the magnet. The American College of Radiology published its first MR safety guidance the next year.",
+      "why": "It is why MRI units now screen everyone and everything that goes near the magnet.",
+      "box": "safety",
+      "sources": [
+        40
+      ]
+    },
+    {
+      "year": 2003,
+      "date": "6 October 2003",
+      "era": "field",
+      "art": "trophy",
+      "key": true,
+      "title": "A Nobel Prize, and a protest",
+      "who": "Paul Lauterbur and Peter Mansfield",
+      "where": "Stockholm, Sweden",
+      "country": "Sweden",
+      "text": "The Nobel Prize in Physiology or Medicine went to Lauterbur and Mansfield for their discoveries concerning MRI. Damadian was left out. Supporters of Damadian ran full-page newspaper advertisements arguing that he should have shared it. The prize can go to at most three people, and the committee’s discussions stay sealed for 50 years.",
+      "why": "It recognised imaging with gradients, and left a lasting debate about who deserves credit.",
+      "box": "gradients",
+      "sources": [
+        41,
+        42,
+        14
+      ]
+    },
+    {
+      "year": 2017,
+      "date": "12 October 2017",
+      "era": "field",
+      "art": "mri",
+      "key": true,
+      "title": "7 T scanners approved for patients",
+      "who": "Siemens Healthineers",
+      "where": "USA and Europe",
+      "country": "Germany",
+      "text": "The MAGNETOM Terra became the first 7 T scanner cleared for clinical use: in Europe in August 2017 and by the US FDA on 12 October 2017, for the head and limbs.",
+      "why": "Ultra-high fields reach finer detail, such as tiny lesions in the brain.",
+      "box": "spins",
+      "sources": [
+        43,
+        44
+      ]
+    },
+    {
+      "year": 2018,
+      "date": "11 September 2018",
+      "era": "field",
+      "art": "snowflake",
+      "title": "A magnet that barely needs helium",
+      "who": "Philips; later Siemens Healthineers",
+      "where": "Zurich, Switzerland and worldwide",
+      "country": "Netherlands",
+      "text": "Helium is scarce and its price swings with shortages. Philips' sealed BlueSeal 1.5 T magnet holds about 7 litres instead of about 1,500, with no quench pipe. In 2021 Siemens' 0.55 T MAGNETOM Free.Max was cleared with less than a litre.",
+      "why": "Low-helium magnets make MRI cheaper to run and easier to install.",
+      "box": "anatomy",
+      "sources": [
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "year": 2020,
+      "date": "6 February 2020",
+      "era": "field",
+      "art": "magnet",
+      "title": "MRI on wheels",
+      "who": "Hyperfine",
+      "where": "Guilford, Connecticut, USA",
+      "country": "USA",
+      "text": "The US FDA cleared the first portable MRI scanner, which runs on a 0.064 T permanent magnet and a normal power socket and can be wheeled to a patient's bedside.",
+      "why": "Low-field scanners could bring MRI to places that cannot house a giant magnet.",
+      "sources": [
+        48
+      ]
+    },
+    {
+      "year": 2023,
+      "date": "August 2023 – December 2025",
+      "era": "field",
+      "art": "chip",
+      "title": "Made-in-India scanners",
+      "who": "VoxelGrids; SAMEER and AIIMS",
+      "where": "Bengaluru, Chandrapur and Delhi, India",
+      "country": "India",
+      "text": "The Bengaluru start-up VoxelGrids unveiled a 1.5 T scanner in 2023 and installed its first clinical system in Chandrapur, Maharashtra, in December 2025. A government project led by SAMEER is building another 1.5 T system for AIIMS Delhi. Both have been called India's first indigenous MRI.",
+      "why": "Home-grown scanners could make MRI far cheaper for Indian hospitals.",
+      "sources": [
+        56,
+        55,
+        57
+      ]
+    },
+    {
+      "year": 2024,
+      "date": "2 April 2024",
+      "era": "field",
+      "art": "mri",
+      "key": true,
+      "title": "The strongest human MRI",
+      "who": "CEA NeuroSpin (Iseult project)",
+      "where": "Saclay, France",
+      "country": "France",
+      "text": "The Iseult scanner, with an 11.7 T magnet, released its first images of the living human brain from 20 volunteers, showing detail 0.2 mm across.",
+      "why": "Stronger fields keep pushing how finely MRI can see the brain.",
+      "box": "spins",
+      "sources": [
+        49,
+        50
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "Magnetic resonance in a molecular beam",
+      "value": "1938",
+      "who": "Isidor Rabi, New York, USA"
+    },
+    {
+      "label": "NMR in ordinary matter",
+      "value": "1945–46",
+      "who": "Edward Purcell and Felix Bloch, USA"
+    },
+    {
+      "label": "Spin echo",
+      "value": "1950",
+      "who": "Erwin Hahn, Illinois, USA"
+    },
+    {
+      "label": "First MR image (two tubes of water)",
+      "value": "1973",
+      "who": "Paul Lauterbur, New York, USA"
+    },
+    {
+      "label": "First image of a living human part (a finger)",
+      "value": "1976–77",
+      "who": "Peter Mansfield and Andrew Maudsley, Nottingham, UK"
+    },
+    {
+      "label": "First whole-body human scan",
+      "value": "3 July 1977",
+      "who": "Raymond Damadian's team, Brooklyn, USA"
+    },
+    {
+      "label": "First clinically useful patient scan",
+      "value": "28 August 1980",
+      "who": "John Mallard's team, Aberdeen, UK"
+    },
+    {
+      "label": "First MRI in India",
+      "value": "1986–87",
+      "who": "INMAS, Delhi"
+    },
+    {
+      "label": "First human fMRI",
+      "value": "1992",
+      "who": "Three US teams"
+    }
+  ],
+  "people": [
+    {
+      "name": "Joseph Larmor",
+      "life": "1857 – 1942",
+      "role": "Physicist",
+      "from": "Ireland",
+      "note": "Worked out the precession rate that now bears his name."
+    },
+    {
+      "name": "Isidor Rabi",
+      "life": "1898 – 1988",
+      "role": "Physicist",
+      "from": "Austria-Hungary and USA",
+      "note": "Discovered magnetic resonance in molecular beams; Nobel Prize 1944."
+    },
+    {
+      "name": "Felix Bloch",
+      "life": "1905 – 1983",
+      "role": "Physicist",
+      "from": "Switzerland and USA",
+      "note": "Detected nuclear induction in water at Stanford; Nobel Prize 1952."
+    },
+    {
+      "name": "Edward Purcell",
+      "life": "1912 – 1997",
+      "role": "Physicist",
+      "from": "USA",
+      "note": "Found NMR in paraffin wax at Harvard; Nobel Prize 1952."
+    },
+    {
+      "name": "Yevgeny Zavoisky",
+      "life": "1907 – 1976",
+      "role": "Physicist",
+      "from": "USSR",
+      "note": "May have glimpsed NMR in 1941 and discovered electron spin resonance in 1944."
+    },
+    {
+      "name": "Erwin Hahn",
+      "life": "1921 – 2016",
+      "role": "Physicist",
+      "from": "USA",
+      "note": "Discovered the spin echo in 1950."
+    },
+    {
+      "name": "Raymond Damadian",
+      "life": "1936 – 2022",
+      "role": "Physician and inventor",
+      "from": "USA",
+      "note": "Proposed NMR for cancer detection and built Indomitable, the first whole-body scanner."
+    },
+    {
+      "name": "Paul Lauterbur",
+      "life": "1929 – 2007",
+      "role": "Chemist",
+      "from": "USA",
+      "note": "Made the first MR image using field gradients; Nobel Prize 2003."
+    },
+    {
+      "name": "Peter Mansfield",
+      "life": "1933 – 2017",
+      "role": "Physicist",
+      "from": "UK",
+      "note": "Invented slice selection and echo-planar imaging; Nobel Prize 2003."
+    },
+    {
+      "name": "Richard Ernst",
+      "life": "1933 – 2021",
+      "role": "Chemist",
+      "from": "Switzerland",
+      "note": "Introduced Fourier-transform imaging; Nobel Prize in Chemistry 1991."
+    },
+    {
+      "name": "John Mallard",
+      "life": "1927 – 2021",
+      "role": "Medical physicist",
+      "from": "UK",
+      "note": "Led the Aberdeen team whose Mark-One scanner made the first clinically useful scan."
+    },
+    {
+      "name": "Seiji Ogawa",
+      "life": "born 1934",
+      "role": "Biophysicist",
+      "from": "Japan",
+      "note": "Discovered BOLD contrast, the basis of fMRI."
+    }
+  ],
+  "series": [
+    {
+      "id": "field",
+      "title": "Field strength of landmark human MRI scanners",
+      "unit": "tesla",
+      "log": true,
+      "after": "field",
+      "caption": "The magnets used to image people, from Indomitable's weak field to the 11.7 T Iseult. Most hospital scanners today are 1.5 or 3 T.",
+      "points": [
+        {
+          "year": 1977,
+          "value": 0.05,
+          "label": "Indomitable, Brooklyn: about 0.05 T (secondary sources)"
+        },
+        {
+          "year": 1980,
+          "value": 0.04,
+          "label": "Aberdeen Mark-One: 0.04 T resistive magnet"
+        },
+        {
+          "year": 1983,
+          "value": 1.5,
+          "label": "GE shows 1.5 T whole-body images"
+        },
+        {
+          "year": 1987,
+          "value": 4,
+          "label": "First whole-body 4 T research systems"
+        },
+        {
+          "year": 1998,
+          "value": 8,
+          "label": "Ohio State University: first human images at 8 T"
+        },
+        {
+          "year": 2006,
+          "value": 9.4,
+          "label": "9.4 T human images (University of Minnesota)"
+        },
+        {
+          "year": 2017,
+          "value": 10.5,
+          "label": "University of Minnesota: first human scans at 10.5 T"
+        },
+        {
+          "year": 2024,
+          "value": 11.7,
+          "label": "Iseult, France: first human brain images at 11.7 T"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    "A 1.5 T scanner's field is about 30,000 times stronger than Earth's, and it stays on day and night, even when nobody is being scanned.",
+    "A conventional 1.5 T magnet holds around 1,500 litres of liquid helium. Boiled into gas at room temperature, each litre swells to about 750 litres.",
+    "The first whole-body scan, in 1977, took nearly five hours to make one rough picture. Echo-planar imaging can now make a brain image in a fraction of a second.",
+    "MRI scanners can be louder than 110 decibels, about as loud as a rock concert, because the gradient coils flex in the magnet's field.",
+    "Japan has about 60 MRI scanners per million people, one of the highest rates in the OECD; the UK has about 9."
+  ],
+  "sources": [
+    {
+      "title": "On the theory of the magnetic influence on spectra (J. Larmor, Phil. Mag. 44, 1897)",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/14786449708621095"
+    },
+    {
+      "title": "Who was Larmor?",
+      "publisher": "Questions and Answers in MRI",
+      "url": "https://mriquestions.com/who-was-larmor.html"
+    },
+    {
+      "title": "The Magnetic Properties and Structure of Hemoglobin, Oxyhemoglobin and Carbonmonoxyhemoglobin (Pauling & Coryell, 1936)",
+      "publisher": "PNAS",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.22.4.210"
+    },
+    {
+      "title": "Milestones in spin: the first NMR attempts",
+      "publisher": "Nature Milestones",
+      "url": "https://www.nature.com/articles/milespin08"
+    },
+    {
+      "title": "Yevgeny Zavoisky",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yevgeny_Zavoisky"
+    },
+    {
+      "title": "A New Method of Measuring Nuclear Magnetic Moment (Rabi et al., Phys. Rev. 53, 318, 1938)",
+      "publisher": "American Physical Society",
+      "url": "https://link.aps.org/doi/10.1103/PhysRev.53.318"
+    },
+    {
+      "title": "The Nobel Prize in Physics 1944",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/physics/1944/summary/"
+    },
+    {
+      "title": "Resonance Absorption by Nuclear Magnetic Moments in a Solid (Purcell, Torrey & Pound, 1946)",
+      "publisher": "American Physical Society",
+      "url": "https://link.aps.org/doi/10.1103/PhysRev.69.37"
+    },
+    {
+      "title": "Nuclear Induction (Bloch, Hansen & Packard, 1946)",
+      "publisher": "American Physical Society",
+      "url": "https://link.aps.org/doi/10.1103/PhysRev.69.127"
+    },
+    {
+      "title": "The Nobel Prize in Physics 1952",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/physics/1952/summary/"
+    },
+    {
+      "title": "Spin Echoes (E. L. Hahn, Phys. Rev. 80, 580, 1950)",
+      "publisher": "American Physical Society",
+      "url": "https://link.aps.org/doi/10.1103/PhysRev.80.580"
+    },
+    {
+      "title": "Fifty years of MRI (P. A. Rinck)",
+      "publisher": "Rinckside",
+      "url": "https://www.rinckside.org/Columns/2021_09-50years-MRI.htm"
+    },
+    {
+      "title": "History of magnetic resonance imaging",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_magnetic_resonance_imaging"
+    },
+    {
+      "title": "Vladislav Ivanov (physicist)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vladislav_Ivanov_(physicist)"
+    },
+    {
+      "title": "Raymond Damadian",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Raymond_Damadian"
+    },
+    {
+      "title": "US 3,789,832: Apparatus and method for detecting cancer in tissue",
+      "publisher": "Google Patents",
+      "url": "https://patents.google.com/patent/US3789832A/en"
+    },
+    {
+      "title": "The Indomitable MRI",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/science-nature/the-indomitable-mri-29126670/"
+    },
+    {
+      "title": "FONAR history",
+      "publisher": "FONAR",
+      "url": "https://www.fonar.com/history.html"
+    },
+    {
+      "title": "Image Formation by Induced Local Interactions (P. C. Lauterbur, Nature 242, 190, 1973)",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/242190a0"
+    },
+    {
+      "title": "Paul Lauterbur",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Paul_Lauterbur"
+    },
+    {
+      "title": "NMR 'diffraction' in solids? (Mansfield & Grannell, 1973)",
+      "publisher": "IOP Publishing",
+      "url": "https://iopscience.iop.org/article/10.1088/0022-3719/6/22/007"
+    },
+    {
+      "title": "Image formation in NMR by a selective irradiative process (Garroway, Grannell & Mansfield, 1974)",
+      "publisher": "IOP Publishing",
+      "url": "https://iopscience.iop.org/article/10.1088/0022-3719/7/24/006"
+    },
+    {
+      "title": "Multi-planar image formation using NMR spin echoes (P. Mansfield, 1977)",
+      "publisher": "IOP Publishing",
+      "url": "https://iopscience.iop.org/article/10.1088/0022-3719/10/3/004"
+    },
+    {
+      "title": "Medical imaging by NMR (Mansfield & Maudsley, Br. J. Radiol. 50, 188, 1977)",
+      "publisher": "British Journal of Radiology",
+      "url": "https://academic.oup.com/bjr/article-abstract/50/591/188/7308107"
+    },
+    {
+      "title": "Peter Mansfield",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Peter_Mansfield"
+    },
+    {
+      "title": "NMR Fourier zeugmatography (Kumar, Welti & Ernst, J. Magn. Reson. 18, 69, 1975)",
+      "publisher": "NASA ADS",
+      "url": "https://ui.adsabs.harvard.edu/abs/1975JMagR..18...69K/abstract"
+    },
+    {
+      "title": "The Nobel Prize in Chemistry 1991",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1991/summary/"
+    },
+    {
+      "title": "Professor John Mallard and the first whole-body MRI scanner",
+      "publisher": "University of Aberdeen",
+      "url": "https://www.abdn.ac.uk/stories/professor-john-mallard/"
+    },
+    {
+      "title": "John Mallard",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/John_Mallard"
+    },
+    {
+      "title": "Regulation of MRI devices in the United States (FDA authors, MAGMA, 2023)",
+      "publisher": "PubMed Central",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10386952"
+    },
+    {
+      "title": "Ian Robert Young OBE and the development of MRI",
+      "publisher": "RAD Magazine",
+      "url": "https://www.radmagazine.com/reader-profile/ian-robert-young-obe-and-the-development-of-mri/"
+    },
+    {
+      "title": "Paul Bottomley (scientist)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Paul_Bottomley_(scientist)"
+    },
+    {
+      "title": "Magnevist (gadopentetate dimeglumine) label: initial U.S. approval 1988",
+      "publisher": "DailyMed, U.S. National Library of Medicine",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/medguide.cfm?setid=be234024-ed43-404e-a40e-a3c1572a9726"
+    },
+    {
+      "title": "History of radiology in India (Indian J. Radiol. Imaging)",
+      "publisher": "PubMed Central",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6243721/"
+    },
+    {
+      "title": "History of neuroradiology in India",
+      "publisher": "Indian Society of Neuroradiology",
+      "url": "https://isnr.in/history-of-neuroradiology-in-india/"
+    },
+    {
+      "title": "MR imaging of intravoxel incoherent motions (Le Bihan et al., Radiology 161, 401, 1986)",
+      "publisher": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3763909/"
+    },
+    {
+      "title": "MR diffusion tensor spectroscopy and imaging (Basser, Mattiello & LeBihan, 1994)",
+      "publisher": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8130344/"
+    },
+    {
+      "title": "Brain magnetic resonance imaging with contrast dependent on blood oxygenation (Ogawa et al., 1990)",
+      "publisher": "PNAS",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.87.24.9868"
+    },
+    {
+      "title": "The history of fMRI, part 3",
+      "publisher": "MGH Martinos Center",
+      "url": "https://www.nmr.mgh.harvard.edu/history-fMRI/part-3"
+    },
+    {
+      "title": "Clinical 3 T MRI: a review",
+      "publisher": "PubMed Central",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822568/"
+    },
+    {
+      "title": "Settlement details released in $2.9M Colombini MRI suit",
+      "publisher": "AuntMinnie",
+      "url": "https://www.auntminnie.com/clinical-news/mri/article/15594133/settlement-details-released-in-29m-colombini-mri-suit"
+    },
+    {
+      "title": "The Nobel Prize in Physiology or Medicine 2003",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/medicine/2003/summary/"
+    },
+    {
+      "title": "Nobel loser doth protest a lot",
+      "publisher": "CBS News",
+      "url": "https://www.cbsnews.com/news/nobel-loser-doth-protest-a-lot/"
+    },
+    {
+      "title": "FDA clears first 7T MRI system, Magnetom Terra",
+      "publisher": "ITN Imaging Technology News",
+      "url": "https://www.itnonline.com/content/fda-clears-first-7t-mri-system-magnetom-terra"
+    },
+    {
+      "title": "Clinical approval for 7 tesla scanner",
+      "publisher": "Medical University of Vienna",
+      "url": "https://www.meduniwien.ac.at/web/en/about-us/news/detailsite/2017/news-in-august-2017/clinical-approval-for-7-tesla-scanner/"
+    },
+    {
+      "title": "Philips launches Ingenia Ambition X 1.5T with fully sealed BlueSeal magnet",
+      "publisher": "Philips",
+      "url": "https://www.philips.com/a-w/about/news/archive/standard/news/press/2018/20180911-philips-launches-ingenia-ambition-x-1-5-t-mr-with-industry-first-fully-sealed-magnet-for-more-productive-helium-free-operations.html"
+    },
+    {
+      "title": "FDA clears MAGNETOM Free.Max",
+      "publisher": "Siemens Healthineers",
+      "url": "https://www.siemens-healthineers.com/en-us/press-room/press-releases/fdaclearsmagnetomfreemax.html"
+    },
+    {
+      "title": "Has helium shortage 4.0 come to an end?",
+      "publisher": "gasworld",
+      "url": "https://www.gasworld.com/story/has-helium-shortage-4-0-come-to-an-end/2136726.article/"
+    },
+    {
+      "title": "510(k) K192002: Lucy Point-of-Care Magnetic Resonance Imaging Device",
+      "publisher": "U.S. Food and Drug Administration",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192002"
+    },
+    {
+      "title": "First in vivo human imaging at 11.7 T (Iseult)",
+      "publisher": "PubMed Central",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11541209/"
+    },
+    {
+      "title": "Project Iseult: the world's most powerful MRI reveals its first images of the human brain",
+      "publisher": "DirectIndustry e-Magazine",
+      "url": "https://emag.directindustry.com/2024/04/02/project-iseult-the-worlds-most-powerful-mri-reveals-its-first-images-of-the-human-brain/"
+    },
+    {
+      "title": "U scientists scan world's first 10.5 tesla human MRI image",
+      "publisher": "University of Minnesota",
+      "url": "https://research.umn.edu/news/u-scientists-scan-worlds-first-105-tesla-human-mri-image"
+    },
+    {
+      "title": "Human magnetic resonance imaging at 8 T (Robitaille et al., NMR Biomed. 1998)",
+      "publisher": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10348433/"
+    },
+    {
+      "title": "9.4T human MRI: preliminary results (Vaughan et al., Magn. Reson. Med. 2006)",
+      "publisher": "Wiley",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.21073"
+    },
+    {
+      "title": "Whole-body 4 T MR imaging (Radiology 169, 1988)",
+      "publisher": "Radiology (RSNA)",
+      "url": "https://doi.org/10.1148/radiology.169.3.3187004"
+    },
+    {
+      "title": "The tag of being India's first indigenous MRI machine has 2 contenders",
+      "publisher": "ThePrint",
+      "url": "https://theprint.in/health/the-tag-of-being-indias-1st-ever-indigenous-mri-machine-has-2-contenders-there-is-no-true-winner/2586258/"
+    },
+    {
+      "title": "Launch of indigenous MRI scanner, Ministry of Science & Technology",
+      "publisher": "Press Information Bureau, Government of India",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1944717"
+    },
+    {
+      "title": "India's first indigenous MRI machine to be installed at AIIMS",
+      "publisher": "News On AIR",
+      "url": "https://newsonair.gov.in/indias-1st-indigenous-mri-machine-to-be-installed-at-aiims-by-october"
+    },
+    {
+      "title": "What is a quench?",
+      "publisher": "Questions and Answers in MRI",
+      "url": "https://mriquestions.com/what-is-a-quench.html"
+    },
+    {
+      "title": "Acoustic noise and magnetic resonance imaging: a narrative review (McJury, J. Magn. Reson. Imaging, 2022)",
+      "publisher": "Wiley",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/jmri.27525"
+    },
+    {
+      "title": "Health at a Glance 2023: diagnostic technologies",
+      "publisher": "OECD",
+      "url": "https://www.oecd.org/en/publications/health-at-a-glance-2023_7a7afb35-en/full-report/diagnostic-technologies_23088ad0.html"
+    }
+  ]
+}
